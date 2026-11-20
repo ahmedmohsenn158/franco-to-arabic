@@ -1,0 +1,21 @@
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Model artifacts
+artifacts/checkpoints/*
+artifacts/predictions/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+runs/
