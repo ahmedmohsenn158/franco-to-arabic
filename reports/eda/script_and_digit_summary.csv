@@ -1,0 +1,10 @@
+property,documents,percent
+Franco contains Arabic letters,89152,16.42
+Franco is more than 50% Arabic letters among letters,18327,3.38
+Egyptian contains Arabic letters,542927,100.0
+Egyptian contains ASCII Latin letters,179169,33.0
+Franco contains Arabic-Indic digits,4844,0.89
+Egyptian contains Arabic-Indic digits,64216,11.83
+Egyptian contains extended Arabic-Indic digits,13,0.0
+Egyptian contains Western digits,361620,66.6
+Egyptian contains Arabic marks/diacritics,452166,83.28

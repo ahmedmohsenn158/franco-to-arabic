@@ -1,0 +1,7 @@
+measurement,documents,percent
+Same non-empty line count,480255,88.46
+Different non-empty line counts,62680,11.54
+Same raw logical line count,375496,69.16
+Different raw logical line counts,167439,30.84
+Source contains at least one blank line,286370,52.74
+Target contains at least one blank line,158789,29.25

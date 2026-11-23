@@ -1,0 +1,28 @@
+{
+  "dataset_rows_raw": 542947,
+  "dataset_rows_retained": 542935,
+  "rows_excluded": 12,
+  "unique_ids_retained": 542935,
+  "exact_duplicate_pair_rows_after_first": 14,
+  "repeated_raw_franco_rows_after_first": 15,
+  "repeated_normalized_franco_groups": 11,
+  "ambiguous_normalized_franco_groups": 1,
+  "same_nonempty_line_count_documents": 480255,
+  "different_nonempty_line_count_documents": 62680,
+  "outputs": {
+    "clean_dataset": "/Users/ahmed/Desktop/PythonProjects/NLP/Project/arabizi-to-egyptian/data/interim/dataset_refined.parquet",
+    "document_statistics": "/Users/ahmed/Desktop/PythonProjects/NLP/Project/arabizi-to-egyptian/data/interim/doc_stats_refined.parquet",
+    "reports_directory": "/Users/ahmed/Desktop/PythonProjects/NLP/Project/arabizi-to-egyptian/reports/eda",
+    "figures_directory": "/Users/ahmed/Desktop/PythonProjects/NLP/Project/arabizi-to-egyptian/reports/figures"
+  },
+  "methodological_notes": [
+    "Original text was retained; diagnostic normalized keys were not written back to the dataset.",
+    "Word counts use non-whitespace runs (\\S+).",
+    "Logical line counts use Python str.splitlines(); blank and non-empty lines are separate.",
+    "Character lengths count Unicode code points, not grapheme clusters.",
+    "Script ratios use Arabic-letter counts divided by all Unicode-letter counts.",
+    "No line-level positional pairs or word-mapping accuracy were computed.",
+    "Equal non-empty line counts are not proof of semantic alignment.",
+    "No digit, hamza, ta marbuta, ya, or diacritic normalization was applied."
+  ]
+}

@@ -1,0 +1,17 @@
+source_digit_profile,target_digit_profile,len
+Indic only,Indic only,1599
+Indic only,No counted digits,44
+Indic only,Western + Indic,46
+Indic only,Western only,1339
+No counted digits,Indic only,3
+No counted digits,No counted digits,1768
+No counted digits,Western + Indic,1
+No counted digits,Western only,39
+Western + Indic,Indic only,1099
+Western + Indic,No counted digits,4
+Western + Indic,Western + Indic,291
+Western + Indic,Western only,422
+Western only,Indic only,53404
+Western only,No counted digits,123394
+Western only,Western + Indic,7777
+Western only,Western only,351705
